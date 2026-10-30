@@ -1,0 +1,156 @@
+{
+  "date": "2026-10-30",
+  "hardware": "MacBookAir10,1 / Apple M1 / 16 GiB RAM",
+  "browser": "Playwright Chromium 156.0.8078.4",
+  "method": "No concurrent test/build jobs; repeat builds verify preview reload via counter reset; upstream/host caches uncontrolled",
+  "samples": [
+    {
+      "size": 0,
+      "cache": "Fresh browser context; upstream and host caches uncontrolled",
+      "startToInteractiveMs": 13243,
+      "hmrObservedMs": [
+        141,
+        123,
+        119
+      ],
+      "buildToPreviewMs": [
+        4057,
+        2396,
+        2448
+      ],
+      "typescript": [
+        {
+          "initializedMs": 173.4399999976158,
+          "analysisMs": 55.325000047683716,
+          "files": 6,
+          "diagnostics": []
+        },
+        {
+          "initializedMs": 173.4399999976158,
+          "analysisMs": 0.10000002384185791,
+          "files": 6,
+          "diagnostics": []
+        },
+        {
+          "initializedMs": 173.4399999976158,
+          "analysisMs": 0.07999998331069946,
+          "files": 6,
+          "diagnostics": []
+        }
+      ],
+      "typescriptAfterEdit": [
+        {
+          "initializedMs": 173.4399999976158,
+          "analysisMs": 27.64000004529953,
+          "files": 6,
+          "diagnostics": [
+            {
+              "code": 2322,
+              "start": 14,
+              "message": "Type 'number' is not assignable to type 'string'."
+            }
+          ]
+        },
+        {
+          "initializedMs": 173.4399999976158,
+          "analysisMs": 18.25,
+          "files": 6,
+          "diagnostics": [
+            {
+              "code": 2322,
+              "start": 14,
+              "message": "Type 'number' is not assignable to type 'string'."
+            }
+          ]
+        },
+        {
+          "initializedMs": 173.4399999976158,
+          "analysisMs": 14.849999964237213,
+          "files": 6,
+          "diagnostics": [
+            {
+              "code": 2322,
+              "start": 14,
+              "message": "Type 'number' is not assignable to type 'string'."
+            }
+          ]
+        }
+      ],
+      "memory": "Unavailable: page heap would omit runtime workers and WASM"
+    },
+    {
+      "size": 250,
+      "cache": "Fresh browser context; upstream and host caches uncontrolled",
+      "startToInteractiveMs": 12722,
+      "hmrObservedMs": [
+        134,
+        123,
+        120
+      ],
+      "buildToPreviewMs": [
+        4440,
+        2882,
+        2901
+      ],
+      "typescript": [
+        {
+          "initializedMs": 193.96499997377396,
+          "analysisMs": 98.2150000333786,
+          "files": 256,
+          "diagnostics": []
+        },
+        {
+          "initializedMs": 193.96499997377396,
+          "analysisMs": 0.4599999785423279,
+          "files": 256,
+          "diagnostics": []
+        },
+        {
+          "initializedMs": 193.96499997377396,
+          "analysisMs": 0.32499998807907104,
+          "files": 256,
+          "diagnostics": []
+        }
+      ],
+      "typescriptAfterEdit": [
+        {
+          "initializedMs": 193.96499997377396,
+          "analysisMs": 80.9200000166893,
+          "files": 256,
+          "diagnostics": [
+            {
+              "code": 2322,
+              "start": 15183,
+              "message": "Type 'number' is not assignable to type 'string'."
+            }
+          ]
+        },
+        {
+          "initializedMs": 193.96499997377396,
+          "analysisMs": 53.18000000715256,
+          "files": 256,
+          "diagnostics": [
+            {
+              "code": 2322,
+              "start": 15183,
+              "message": "Type 'number' is not assignable to type 'string'."
+            }
+          ]
+        },
+        {
+          "initializedMs": 193.96499997377396,
+          "analysisMs": 52.730000019073486,
+          "files": 256,
+          "diagnostics": [
+            {
+              "code": 2322,
+              "start": 15183,
+              "message": "Type 'number' is not assignable to type 'string'."
+            }
+          ]
+        }
+      ],
+      "memory": "Unavailable: page heap would omit runtime workers and WASM"
+    }
+  ]
+}

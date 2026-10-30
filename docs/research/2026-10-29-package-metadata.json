@@ -1,0 +1,450 @@
+{
+  "observed_on": "2026-10-29",
+  "evidence": "Published metadata only; packages not installed or executed",
+  "packages": [
+    {
+      "source": "https://registry.npmjs.org/vite/8.3.5",
+      "name": "vite",
+      "version": "8.3.5",
+      "license": "MIT",
+      "engines": {
+        "node": "^20.19.0 || >=22.12.0"
+      },
+      "dependencies": {
+        "postcss": "^8.5.30",
+        "rolldown": "~1.2.14",
+        "picomatch": "^4.0.7",
+        "tinyglobby": "^0.2.17",
+        "lightningcss": "^1.33.0"
+      },
+      "optionalDependencies": {
+        "fsevents": "~2.3.3"
+      },
+      "peerDependencies": {
+        "tsx": "^4.8.1",
+        "jiti": ">=1.21.0",
+        "less": "^4.0.0",
+        "sass": "^1.70.0",
+        "yaml": "^2.4.2",
+        "stylus": ">=0.54.8",
+        "terser": "^5.16.0",
+        "esbuild": "^0.27.0 || ^0.28.0",
+        "sugarss": "^5.0.0",
+        "@types/node": "^20.19.0 || >=22.12.0",
+        "sass-embedded": "^1.70.0",
+        "@vitejs/devtools": "^0.7.1 || ^0.8.0"
+      },
+      "peerDependenciesMeta": {
+        "tsx": {
+          "optional": true
+        },
+        "jiti": {
+          "optional": true
+        },
+        "less": {
+          "optional": true
+        },
+        "sass": {
+          "optional": true
+        },
+        "yaml": {
+          "optional": true
+        },
+        "stylus": {
+          "optional": true
+        },
+        "terser": {
+          "optional": true
+        },
+        "esbuild": {
+          "optional": true
+        },
+        "sugarss": {
+          "optional": true
+        },
+        "@types/node": {
+          "optional": true
+        },
+        "sass-embedded": {
+          "optional": true
+        },
+        "@vitejs/devtools": {
+          "optional": true
+        }
+      },
+      "exports": {
+        ".": "./dist/node/index.js",
+        "./client": {
+          "types": "./client.d.ts"
+        },
+        "./types/*": {
+          "types": "./types/*"
+        },
+        "./internal": "./dist/node/internal.js",
+        "./package.json": "./package.json",
+        "./dist/client/*": "./dist/client/*",
+        "./module-runner": "./dist/node/module-runner.js",
+        "./types/internal/*": null
+      },
+      "dist": {
+        "shasum": "9614f66026cb92fe486cb9d3c90780b2a69fc85d",
+        "tarball": "https://registry.npmjs.org/vite/-/vite-8.3.5.tgz",
+        "fileCount": 37,
+        "integrity": "sha512-z1YpjieJ9g0ebTmQpLBv/oq9E3F9EIlOe+7LahW8SrE3LTiG3udBRUXQOlYXP9b+IC2q2phHeVxj9xGlw34OEQ==",
+        "signatures": [
+          {
+            "sig": "MEUCIQCkxHmW9S61MNuyy4DXnW7ycbvIM+zLgMLTZY8apoH/7QIgUYeeXGnwTa1EtnZYtLxO8KeaaprYp0Zleoi3Z0ptC4o=",
+            "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U"
+          },
+          {
+            "sig": "MEQCIBXwoS/AmN2uPnY/afXHZ95+19ukFqZNAU1UXqF3/wZEAiAPd1Qjn/zSliT6hF8t80jMjz9Gjqw324wpmsbW+fGQXQ==",
+            "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U"
+          }
+        ],
+        "attestations": {
+          "url": "https://registry.npmjs.org/-/npm/v1/attestations/vite@8.3.5",
+          "provenance": {
+            "predicateType": "https://slsa.dev/provenance/v1"
+          }
+        },
+        "unpackedSize": 2383283
+      }
+    },
+    {
+      "source": "https://registry.npmjs.org/%40webcontainer%2Fapi/1.6.4",
+      "name": "@webcontainer/api",
+      "version": "1.6.4",
+      "license": "MIT",
+      "engines": null,
+      "dependencies": null,
+      "optionalDependencies": null,
+      "peerDependencies": null,
+      "peerDependenciesMeta": null,
+      "exports": {
+        ".": {
+          "import": {
+            "types": "./dist/index.d.ts",
+            "default": "./dist/index.js"
+          }
+        },
+        "./utils": {
+          "import": {
+            "types": "./dist/utils.d.ts",
+            "default": "./dist/utils.js"
+          }
+        },
+        "./connect": {
+          "import": {
+            "types": "./dist/connect.d.ts",
+            "default": "./dist/connect.js"
+          }
+        }
+      },
+      "dist": {
+        "shasum": "d3f104a53767e55d692a96940fa9958fcde7a95a",
+        "tarball": "https://registry.npmjs.org/@webcontainer/api/-/api-1.6.4.tgz",
+        "fileCount": 31,
+        "integrity": "sha512-r9sHCXg1FcC1AMgppGwAc0vYWaQhqvg282cnsuPbJEzYnWifAdCVvg+8ngJUEHyHcomhJJp+/zuytite4ITHLw==",
+        "signatures": [
+          {
+            "sig": "MEUCIEqIXtbNdrCMG3coKYEOu7J6Be8rs531u3RRzDriPnPlAiEAwxrJ4JLNz1vtgjGLClG09gWA4nEPbbpf93MYPGusUQ8=",
+            "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U"
+          }
+        ],
+        "unpackedSize": 180686
+      }
+    },
+    {
+      "source": "https://registry.npmjs.org/%40vitejs%2Fplugin-react/6.1.2",
+      "name": "@vitejs/plugin-react",
+      "version": "6.1.2",
+      "license": "MIT",
+      "engines": {
+        "node": "^20.19.0 || >=22.12.0"
+      },
+      "dependencies": {
+        "@rolldown/pluginutils": "^1.0.1"
+      },
+      "optionalDependencies": null,
+      "peerDependencies": {
+        "vite": "^8.0.0",
+        "oxc-transform-react": "^0.152.0",
+        "@rolldown/plugin-babel": "^0.1.7 || ^0.2.0",
+        "babel-plugin-react-compiler": "^1.0.0"
+      },
+      "peerDependenciesMeta": {
+        "oxc-transform-react": {
+          "optional": true
+        },
+        "@rolldown/plugin-babel": {
+          "optional": true
+        },
+        "babel-plugin-react-compiler": {
+          "optional": true
+        }
+      },
+      "exports": {
+        ".": "./dist/index.js",
+        "./preamble": "./types/preamble.d.ts"
+      },
+      "dist": {
+        "shasum": "924d47e890a78cdf2b72f3f41fe8ab98e089b81e",
+        "tarball": "https://registry.npmjs.org/@vitejs/plugin-react/-/plugin-react-6.1.2.tgz",
+        "fileCount": 8,
+        "integrity": "sha512-fhJNGUdscQa4HkI0xFxwonWyhnVReCPDbXI7FH7jmzpnVCrFQI7PRrhWecO263610vOrs9tr2Y4xcf8uAdFxbw==",
+        "signatures": [
+          {
+            "sig": "MEUCIQCgpYsgjqTlOLHoKHGebF/CVGDeZXj631NLMep/SKoPxwIgQWZS4mOR+zKRUVL7FUDOOFDZyuMuywEGKrwry5GdV1Q=",
+            "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U"
+          },
+          {
+            "sig": "MEUCIQDLH4vCHenzBgP8wEYtZ9kCyKB71ErIPflGwaTlK1x9UwIgD2g6OSfhpU2OeghhDhPrAlwcunG8FMKXva4cki2sYlM=",
+            "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U"
+          }
+        ],
+        "attestations": {
+          "url": "https://registry.npmjs.org/-/npm/v1/attestations/@vitejs%2fplugin-react@6.1.2",
+          "provenance": {
+            "predicateType": "https://slsa.dev/provenance/v1"
+          }
+        },
+        "unpackedSize": 46296
+      }
+    },
+    {
+      "source": "https://registry.npmjs.org/rolldown/1.2.16",
+      "name": "rolldown",
+      "version": "1.2.16",
+      "license": "MIT",
+      "engines": {
+        "node": "^20.19.0 || >=22.12.0"
+      },
+      "dependencies": {
+        "@oxc-project/types": "=0.156.0",
+        "@rolldown/pluginutils": "^1.0.0"
+      },
+      "optionalDependencies": {
+        "@rolldown/binding-darwin-x64": "1.2.16",
+        "@rolldown/binding-freebsd-x64": "1.2.16",
+        "@rolldown/binding-darwin-arm64": "1.2.16",
+        "@rolldown/binding-android-arm64": "1.2.16",
+        "@rolldown/binding-linux-x64-gnu": "1.2.16",
+        "@rolldown/binding-linux-x64-musl": "1.2.16",
+        "@rolldown/binding-win32-x64-msvc": "1.2.16",
+        "@rolldown/binding-linux-arm64-gnu": "1.2.16",
+        "@rolldown/binding-linux-ppc64-gnu": "1.2.16",
+        "@rolldown/binding-linux-s390x-gnu": "1.2.16",
+        "@rolldown/binding-android-arm-eabi": "1.2.16",
+        "@rolldown/binding-linux-arm64-musl": "1.2.16",
+        "@rolldown/binding-win32-arm64-msvc": "1.2.16",
+        "@rolldown/binding-openharmony-arm64": "1.2.16",
+        "@rolldown/binding-linux-arm-gnueabihf": "1.2.16"
+      },
+      "peerDependencies": null,
+      "peerDependenciesMeta": null,
+      "exports": {
+        ".": "./dist/index.mjs",
+        "./utils": "./dist/utils-index.mjs",
+        "./config": "./dist/config.mjs",
+        "./filter": "./dist/filter-index.mjs",
+        "./plugins": "./dist/plugins-index.mjs",
+        "./parseAst": "./dist/parse-ast-index.mjs",
+        "./experimental": "./dist/experimental-index.mjs",
+        "./getLogFilter": "./dist/get-log-filter.mjs",
+        "./package.json": "./package.json",
+        "./parallelPlugin": "./dist/parallel-plugin.mjs",
+        "./experimental/runtime": {
+          "types": "./dist/experimental-runtime.d.ts",
+          "default": "./dist/experimental-runtime.mjs"
+        },
+        "./experimental/runtime-types": {
+          "types": "./dist/experimental-runtime-types.d.ts"
+        }
+      },
+      "dist": {
+        "shasum": "6c99aafa32361d578fbd945aeb43e533bb8f4c28",
+        "tarball": "https://registry.npmjs.org/rolldown/-/rolldown-1.2.16.tgz",
+        "fileCount": 54,
+        "integrity": "sha512-bWvlMpFKiTfDKfnK7FC2MPgPeWCf/Kpwsq49ApdW+FQaBZb6O6dZ4MAPbPUjp7hYQrw/RobqCzn64BRrQecGHw==",
+        "signatures": [
+          {
+            "sig": "MEQCIElzV7AbNn+gHQz+BlBPLqpK4tVLEhL2Wg4bjFoi6Ia0AiBgSQTvRyzmafqxAkLdy3S92wkLFeDhqx7FKo6tdAiUcg==",
+            "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U"
+          },
+          {
+            "sig": "MEUCIQDE/0dZ7rTisD0ssZkrEvqAh6H9p5W0q61ZemnUsvxU0QIgX1mSBbEwCc05VcsUzKDud6A2hH8Mcuyn2pi0y92xauY=",
+            "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U"
+          }
+        ],
+        "attestations": {
+          "url": "https://registry.npmjs.org/-/npm/v1/attestations/rolldown@1.2.16",
+          "provenance": {
+            "predicateType": "https://slsa.dev/provenance/v1"
+          }
+        },
+        "unpackedSize": 884636
+      }
+    },
+    {
+      "source": "https://registry.npmjs.org/lightningcss/1.33.0",
+      "name": "lightningcss",
+      "version": "1.33.0",
+      "license": "MPL-2.0",
+      "engines": {
+        "node": ">= 12.0.0"
+      },
+      "dependencies": {
+        "detect-libc": "^2.0.3"
+      },
+      "optionalDependencies": {
+        "lightningcss-darwin-x64": "1.33.0",
+        "lightningcss-freebsd-x64": "1.33.0",
+        "lightningcss-darwin-arm64": "1.33.0",
+        "lightningcss-android-arm64": "1.33.0",
+        "lightningcss-linux-x64-gnu": "1.33.0",
+        "lightningcss-linux-x64-musl": "1.33.0",
+        "lightningcss-win32-x64-msvc": "1.33.0",
+        "lightningcss-linux-arm64-gnu": "1.33.0",
+        "lightningcss-linux-arm64-musl": "1.33.0",
+        "lightningcss-win32-arm64-msvc": "1.33.0",
+        "lightningcss-linux-arm-gnueabihf": "1.33.0"
+      },
+      "peerDependencies": null,
+      "peerDependenciesMeta": null,
+      "exports": {
+        "types": "./node/index.d.ts",
+        "import": "./node/index.mjs",
+        "require": "./node/index.js"
+      },
+      "dist": {
+        "shasum": "c08867d71a79385c6e190214fd72fef3e5f95f0b",
+        "tarball": "https://registry.npmjs.org/lightningcss/-/lightningcss-1.33.0.tgz",
+        "fileCount": 14,
+        "integrity": "sha512-WkUDrojuJs0xkgGf2udWxa3yGBRxPtxUkB79i6aCZLRgc7PM8fZe9TosfPDcvEpQZbuFASnHYmRLBLUbmLOIIA==",
+        "signatures": [
+          {
+            "sig": "MEYCIQD6IxrcvTJjhhJlgfKe7RuFv5TmKSx2/oRjJFZ6rhFXsAIhAPzxReFHw+l4nMIgYtlaZJJJUFVgHCmzSnw1tHjX2ikY",
+            "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U"
+          }
+        ],
+        "unpackedSize": 513814
+      }
+    },
+    {
+      "source": "https://registry.npmjs.org/typescript/7.0.2",
+      "name": "typescript",
+      "version": "7.0.2",
+      "license": "Apache-2.0",
+      "engines": {
+        "node": ">=16.20.0"
+      },
+      "dependencies": {
+        "@typescript/typescript-aix-ppc64": "7.0.2",
+        "@typescript/typescript-linux-arm": "7.0.2",
+        "@typescript/typescript-linux-x64": "7.0.2",
+        "@typescript/typescript-sunos-x64": "7.0.2",
+        "@typescript/typescript-win32-x64": "7.0.2",
+        "@typescript/typescript-darwin-x64": "7.0.2",
+        "@typescript/typescript-netbsd-x64": "7.0.2",
+        "@typescript/typescript-freebsd-x64": "7.0.2",
+        "@typescript/typescript-linux-arm64": "7.0.2",
+        "@typescript/typescript-linux-ppc64": "7.0.2",
+        "@typescript/typescript-linux-s390x": "7.0.2",
+        "@typescript/typescript-openbsd-x64": "7.0.2",
+        "@typescript/typescript-win32-arm64": "7.0.2",
+        "@typescript/typescript-darwin-arm64": "7.0.2",
+        "@typescript/typescript-netbsd-arm64": "7.0.2",
+        "@typescript/typescript-freebsd-arm64": "7.0.2",
+        "@typescript/typescript-linux-loong64": "7.0.2",
+        "@typescript/typescript-linux-riscv64": "7.0.2",
+        "@typescript/typescript-openbsd-arm64": "7.0.2",
+        "@typescript/typescript-linux-mips64el": "7.0.2"
+      },
+      "optionalDependencies": {
+        "@typescript/typescript-aix-ppc64": "7.0.2",
+        "@typescript/typescript-linux-arm": "7.0.2",
+        "@typescript/typescript-linux-x64": "7.0.2",
+        "@typescript/typescript-sunos-x64": "7.0.2",
+        "@typescript/typescript-win32-x64": "7.0.2",
+        "@typescript/typescript-darwin-x64": "7.0.2",
+        "@typescript/typescript-netbsd-x64": "7.0.2",
+        "@typescript/typescript-freebsd-x64": "7.0.2",
+        "@typescript/typescript-linux-arm64": "7.0.2",
+        "@typescript/typescript-linux-ppc64": "7.0.2",
+        "@typescript/typescript-linux-s390x": "7.0.2",
+        "@typescript/typescript-openbsd-x64": "7.0.2",
+        "@typescript/typescript-win32-arm64": "7.0.2",
+        "@typescript/typescript-darwin-arm64": "7.0.2",
+        "@typescript/typescript-netbsd-arm64": "7.0.2",
+        "@typescript/typescript-freebsd-arm64": "7.0.2",
+        "@typescript/typescript-linux-loong64": "7.0.2",
+        "@typescript/typescript-linux-riscv64": "7.0.2",
+        "@typescript/typescript-openbsd-arm64": "7.0.2",
+        "@typescript/typescript-linux-mips64el": "7.0.2"
+      },
+      "peerDependencies": null,
+      "peerDependenciesMeta": null,
+      "exports": {
+        ".": "./lib/version.cjs",
+        "./unstable/fs": "./dist/api/fs.js",
+        "./package.json": "./package.json",
+        "./unstable/ast": "./dist/ast/index.js",
+        "./unstable/sync": "./dist/api/sync/api.js",
+        "./unstable/async": "./dist/api/async/api.js",
+        "./unstable/proto": "./dist/api/proto.js",
+        "./unstable/ast/is": "./dist/ast/is.js",
+        "./unstable/ast/clone": "./dist/ast/clone.js",
+        "./unstable/ast/utils": "./dist/ast/utils.js",
+        "./unstable/ast/factory": "./dist/ast/factory.generated.js",
+        "./unstable/ast/scanner": "./dist/ast/scanner.js",
+        "./unstable/ast/visitor": "./dist/ast/visitor.js"
+      },
+      "dist": {
+        "shasum": "9ec773d7954a8c182c17cc5bbd575aa28bc51582",
+        "tarball": "https://registry.npmjs.org/typescript/-/typescript-7.0.2.tgz",
+        "fileCount": 416,
+        "integrity": "sha512-8FYau96o3NKOhbjKi/qNvG/W5jhzxkbdm5sj9AbZ/5T5sWqn3hJgLfGx27sRKZWTvyzCP8dLRBTf5tBTSRVUNA==",
+        "signatures": [
+          {
+            "sig": "MEUCIHn8lVrLBbTJToaOcV3IJ0oVPREmFT5BhqmO2niVNCaSAiEAjbubGExGAYMSJN39iEgX/eDYhwBGnh/iyyGTRigXGjY=",
+            "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U"
+          }
+        ],
+        "unpackedSize": 2497498
+      }
+    },
+    {
+      "source": "https://registry.npmjs.org/%40typescript%2Fvfs/1.6.5",
+      "name": "@typescript/vfs",
+      "version": "1.6.5",
+      "license": "MIT",
+      "engines": null,
+      "dependencies": {
+        "debug": "^4.4.3"
+      },
+      "optionalDependencies": null,
+      "peerDependencies": {
+        "typescript": "*"
+      },
+      "peerDependenciesMeta": null,
+      "exports": null,
+      "dist": {
+        "shasum": "f96bac4c5c4d2b57184b07ed886fc87b67de5d47",
+        "tarball": "https://registry.npmjs.org/@typescript/vfs/-/vfs-1.6.5.tgz",
+        "fileCount": 12,
+        "integrity": "sha512-gobLHQLmvQGJInFk31NvgMd1uYzRXsd8qgnOssyLD055R2QPnw1ubRbBQ4+T+5qC7IQVuYXdvNDE2G7tMDVHgw==",
+        "signatures": [
+          {
+            "sig": "MEUCIQCXey9Uq+oTAMTvZ4C9QImY0Msdi5urmwjPiMHDkHi9GgIgYP0KelRKEKYpqrk1OR2d3IIAl5FTsXhZyMLIcPQAw8w=",
+            "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U"
+          },
+          {
+            "sig": "MEUCIQDQJwWNy4uoTSfx9xHix+ArCYEDOGIDbO+N1o4ITElPVwIge6j3LP6L8OuNO0TxqNSiZ7RqPhGjr0zaURIZQ0YUB/c=",
+            "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U"
+          }
+        ],
+        "unpackedSize": 256837
+      }
+    }
+  ]
+}

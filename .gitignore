@@ -1,0 +1,12 @@
+node_modules/
+.vitest/
+dist/
+coverage/
+test-results/
+playwright-report/
+.research-cache/
+experiments/**/artifacts/
+
+.env
+.env.*
+!.env.example

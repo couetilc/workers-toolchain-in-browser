@@ -1,0 +1,56 @@
+{
+  "name": "workers-toolchain-in-browser",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=24.11.0"
+  },
+  "scripts": {
+    "dev": "vite --host 127.0.0.1 --port 4170 --strictPort",
+    "preview": "vite preview --host 127.0.0.1 --port 4170 --strictPort",
+    "proxy": "node scripts/proxy.mjs",
+    "proxy:fixture": "MODEL_API_KEY=fixture MODEL_BASE_URL=http://127.0.0.1:4172/v1 MODEL_ID=fixture node scripts/proxy.mjs",
+    "model:fixture": "node tests/fixtures/model-server.mjs",
+    "build": "vite build",
+    "check": "tsc --noEmit",
+    "test": "vitest run",
+    "test:coverage": "vitest run --coverage",
+    "test:coverage:worker-proof": "node scripts/check-worker-coverage.mjs",
+    "test:e01": "playwright test e01 --project=chromium",
+    "test:e02": "playwright test e02 --project=chromium",
+    "test:integration": "playwright test --project=chromium",
+    "test:integration:built": "PLAYWRIGHT_PRODUCTION=1 playwright test --project=chromium",
+    "test:workload": "playwright test --config=playwright.workload.config.ts",
+    "test:browsers": "playwright test",
+    "test:live": "playwright test --config=playwright.live.config.ts"
+  },
+  "dependencies": {
+    "@codemirror/autocomplete": "6.20.4",
+    "@codemirror/commands": "6.11.1",
+    "@codemirror/lang-javascript": "6.2.5",
+    "@codemirror/language": "6.13.1",
+    "@codemirror/lint": "6.9.7",
+    "@codemirror/state": "6.7.6",
+    "@codemirror/view": "6.43.15",
+    "@earendil-works/pi-agent-core": "1.4.0",
+    "@earendil-works/pi-ai": "1.4.0",
+    "@sqlite.org/sqlite-wasm": "3.54.1-build1",
+    "@typescript/vfs": "1.6.5",
+    "@webcontainer/api": "1.6.4",
+    "typebox": "1.3.27",
+    "typescript": "6.0.3"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.64.1",
+    "@types/node": "24.10.0",
+    "@types/react": "19.3.0",
+    "@types/react-dom": "19.3.0",
+    "@vitest/browser-playwright": "5.0.5",
+    "@vitest/coverage-istanbul": "5.0.5",
+    "@vitest/coverage-v8": "5.0.5",
+    "@vitest/istanbul-lib-coverage": "1.0.2",
+    "csstype": "3.2.3",
+    "vite": "8.3.5",
+    "vitest": "5.0.5"
+  }
+}
